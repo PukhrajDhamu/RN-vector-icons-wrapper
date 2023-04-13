@@ -1,0 +1,39 @@
+{
+  "name": "RN-vector-icons-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper for react-native-vector-icons to use in your react-native project",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PukhrajDhamu/RN-vector-icons-wrapper.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-vector-icons",
+    "react-native-vector-icons-wrapper",
+    "react-native-dynamic-vector-icons",
+    "react-native-dynamic-vector-icons-wrapper"
+  ],
+  "author": "Pukhraj Dhamu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PukhrajDhamu/RN-vector-icons-wrapper/issues"
+  },
+  "homepage": "https://github.com/PukhrajDhamu/RN-vector-icons-wrapper#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-vector-icons": "*"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
