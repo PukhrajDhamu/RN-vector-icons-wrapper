@@ -1,0 +1,1 @@
+# RN vector icons wrapper
